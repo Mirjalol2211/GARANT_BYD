@@ -22,6 +22,13 @@
   .counter button { padding: 5px 10px; font-size: 16px; }
   .cart-button { background-color: #28a745; color: white; border: none; padding: 10px 20px; margin-top: 15px; border-radius: 5px; font-size: 16px; cursor: pointer; }
   .cart-button:hover { background-color: #218838; }
+  .modal-content img {
+  width: 100%;
+  height: 300px; /* фиксированная высота для всех */
+  object-fit: cover; /* обрезка по центру */
+  border-radius: 10px;
+}
+
 </style>
 </head>
 <body>
