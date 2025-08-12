@@ -68,15 +68,16 @@ const productsData = {};
 
 // Категория "Фильтр" с конкретными товарами
 productsData["Фильтр"] = [
-  { name: "83076 Фильтр салона BYD с углем  BYD Song Plus (83076)", price: "1.60$", img: "https://i.postimg.cc/44DYZ0wT/temp-Image-Mjy-Bn-J.avif$0" },
-  { name: "84102 Фильтр салона с углем YUAN PLUS (84102)", price: "1.73$", img: "https://i.postimg.cc/ZnxCK8Th/temp-Imageh-BXRZO.avif$0" },
-  { name: "89096 Фильтр салона BYD CHAZOR (С УГЛЕМ) (89096)", price: "1.72$", img: "https://i.postimg.cc/C1R3xm73/temp-Imagebx-K9-S1.avif$0" },
-  { name: "87002 Фильтр салона BYD SEAGULL EV (87002)", price: "1.65$", img: "https://i.postimg.cc/3RhtP16j/temp-Image-Yc-Nsr-Y.avif$0" },
-  { name: "83214 Фильтр салона BYD SONG PRO EV (83214)", price: "1.78$", img: "https://i.postimg.cc/HLrmrYsv/temp-Image6-Be6v-Z.avif$0" },
-  { name: "95031 Фильтр салона с углем BYD E2 (95031)", price: "1.62$", img: "https://i.postimg.cc/PJ4QskZT/temp-Image-Q9txm-V.avif$0" },
-  { name: "81014 Фильтр салона Уголь BYD HAN №1 (81014)", price: "1.62$", img: "https://i.postimg.cc/kg7BZbXr/temp-Image-YZ7-Wm-E.avif$0" },
-  { name: "Фильтр салона с углем YUAN UP (84127)", price: "1.70$", img: "https://i.postimg.cc/yY9z919k/temp-Imagec2895-D.avif$0" }
+  { name: "83076 Фильтр салона BYD с углем  BYD Song Plus (83076)", price: "20 320 сум", img: "https://i.postimg.cc/44DYZ0wT/temp-Image-Mjy-Bn-J.avif$0" },
+  { name: "84102 Фильтр салона с углем YUAN PLUS (84102)", price: "21 971 сум", img: "https://i.postimg.cc/ZnxCK8Th/temp-Imageh-BXRZO.avif$0" },
+  { name: "89096 Фильтр салона BYD CHAZOR (С УГЛЕМ) (89096)", price: "21 844 сум", img: "https://i.postimg.cc/C1R3xm73/temp-Imagebx-K9-S1.avif$0" },
+  { name: "87002 Фильтр салона BYD SEAGULL EV (87002)", price: "20 955 сум", img: "https://i.postimg.cc/3RhtP16j/temp-Image-Yc-Nsr-Y.avif$0" },
+  { name: "83214 Фильтр салона BYD SONG PRO EV (83214)", price: "22 606 сум", img: "https://i.postimg.cc/HLrmrYsv/temp-Image6-Be6v-Z.avif$0" },
+  { name: "95031 Фильтр салона с углем BYD E2 (95031)", price: "20 574 сум", img: "https://i.postimg.cc/PJ4QskZT/temp-Image-Q9txm-V.avif$0" },
+  { name: "81014 Фильтр салона Уголь BYD HAN №1 (81014)", price: "20 574 сум", img: "https://i.postimg.cc/kg7BZbXr/temp-Image-YZ7-Wm-E.avif$0" },
+  { name: "Фильтр салона с углем YUAN UP (84127)", price: "21 590 сум", img: "https://i.postimg.cc/yY9z919k/temp-Imagec2895-D.avif$0" }
 ];
+
 
 // Остальные категории заполняем как раньше
 categories.forEach(cat => {
@@ -151,6 +152,12 @@ function changeQuantity(delta) {
 
 // Показ первой категории по умолчанию
 showCategory(categories[0], categoryList.firstChild);
+</script>
+
+</body>
+</html>
+
+
 </script>
 
 </body>
