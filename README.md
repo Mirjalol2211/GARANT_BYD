@@ -1,4 +1,3 @@
-
 <html lang="ru">
 <head>
 <meta charset="UTF-8" />
@@ -24,7 +23,14 @@
   .modal-content img { width:100%; height:300px; object-fit:cover; border-radius:8px; }
   .close { position:absolute; right:12px; top:8px; font-size:22px; cursor:pointer; }
 
-  .contacts { background:#fff; padding:12px 20px; text-align:center; border-top:1px solid #e0e0e0; }
+  .contacts { 
+    background:#fff; 
+    padding:12px 20px; 
+    text-align:center; 
+    border-top:1px solid #e0e0e0; 
+    font-size:20px; 
+    font-weight:bold;
+  }
 </style>
 </head>
 <body>
@@ -81,9 +87,8 @@ categories.forEach((cat, idx) => {
   categoryList.appendChild(li);
 });
 
-/* Показ категории — безопасно: firstElementChild вместо firstChild */
+/* Показ категории */
 function showCategory(categoryName, element) {
-  console.log('Показываем категорию:', categoryName);
   document.querySelectorAll('#categoryList li').forEach(li => li.classList.remove('active'));
   if (element) element.classList.add('active');
 
@@ -123,12 +128,10 @@ function openModal(product) {
 closeModal.addEventListener('click', () => modal.classList.remove('open'));
 modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('open'); });
 
-/* Старт: используем firstElementChild (надежнее) */
+/* Старт */
 const firstLi = categoryList.firstElementChild;
 if (firstLi) {
   showCategory(categories[0], firstLi);
-} else {
-  console.warn('Категории не найдены — список пуст.');
 }
 </script>
 
