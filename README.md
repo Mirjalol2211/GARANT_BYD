@@ -61,6 +61,9 @@
   +998 97 187 44 40
 </div>
 
+h1.project-name {
+  display: none;
+}
 <script>
 /* Данные */
 const categories = ["Фильтр"];
