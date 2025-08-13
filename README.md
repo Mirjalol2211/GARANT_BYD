@@ -16,6 +16,8 @@
   .product img { width:100%; height:120px; object-fit:cover; border-radius:6px; display:block; }
   .product h3 { font-size:14px; margin:0; }
   .product p { margin:0; color:#333; font-weight:600; }
+  
+h1.project-name { display: none; }
 
   /* Модал */
   .modal { display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.5); align-items:center; justify-content:center; }
@@ -61,9 +63,6 @@
   +998 97 187 44 40
 </div>
 
-h1.project-name {
-  display: none;
-}
 <script>
 /* Данные */
 const categories = ["Фильтр"];
