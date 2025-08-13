@@ -1,8 +1,8 @@
-title: "Гарант BYD"
-description: "Официальный дилер BYD в Ташкенте"
 
 <html lang="ru">
 <head>
+  title: "Гарант BYD"
+description: "Официальный дилер BYD в Ташкенте"
 <meta charset="UTF-8" />
 <title>Меню — Фильтр</title>
 <style>
